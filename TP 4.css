@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.etudiant {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
+main {
+    display: flex;
+    gap: 30px;
+}
+
+
+.sidebar {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.content {
+    width: 70%;
+}
+
+
+.contact,
+.skills,
+.hobbies,
+.about-me,
+.education {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #007bff;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+
+.contact ul {
+    list-style: none;
+}
+
+.contact li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+    font-size: 16px;
+    color: #007bff;
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin-bottom: 15px;
+}
+
+.skill-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.skill-bar {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-bar span {
+    display: block;
+    height: 70%;
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+
+.hobbies p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+.about-me p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+
+.education ul {
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.education li {
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.year {
+    display: inline-block;
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+    background: #f0f8ff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.education li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #007bff;
+}
+
+.education li::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    bottom: -15px;
+    width: 2px;
+    background-color: #007bff;
+}
+
+
+    
+    .sidebar,
+    .content {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .sidebar {
+        margin-bottom: 30px;
+    }
+    
+    .cv-container {
+        padding: 20px;
+    }
+}
