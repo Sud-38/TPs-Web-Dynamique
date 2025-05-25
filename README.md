@@ -1,2 +1,3 @@
+# Tp1-Tp2-Tp3
+L’objectif de ces travaux dirigés est d’apprendre les bases du langage HTML afin de créer des pages web simples et structurées, en utilisant des tableaux, des formulaires et des liens pour les rendre claires, fonctionnelles et interactives.
 
-Les Travaux Pratiques de Web Dynamique portent sur la création de sites et d'applications web interactives, combinant les technologies front-end et back-end pour offrir une expérience utilisateur fluide et réactive.
